@@ -1,6 +1,7 @@
 {
     "userName": "",
     "credentials": {
-        "clientId": ""
+        "clientId": "",
+        "clientSecret": ""
     }
 }
