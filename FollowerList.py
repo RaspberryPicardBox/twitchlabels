@@ -99,4 +99,6 @@ if __name__ == "__main__":
             loop.run_until_complete(asyncio.sleep(5))
     except (KeyboardInterrupt, SystemExit):
         print("Closing FollowerList.")
+    finally:
+        loop.run_until_complete(loop.shutdown_asyncgens())
         loop.close()
